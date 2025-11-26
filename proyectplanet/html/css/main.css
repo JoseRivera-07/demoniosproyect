@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-image: url("../images/Gemini_Generated_Image_v6xk3rv6xk3rv6xk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Impact", "Arial Black", sans-serif;
+    color: #F8E9D6; /* Texto principal hueso */
+}
+
+/* Títulos con poder */
+h1, h2 {
+    color: #FFD700; /* Dorado fuerte */
+    text-shadow: 0 0 10px #FF4D00;
+}
+
+/* Texto */
+p {
+    color: #F8E9D6; /* Legible pero temático */
+}
+
+/* Botones Search */
+.search-button {
+    background-color: #39FF14;
+    color: #2A003A;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-weight: bold;
+}

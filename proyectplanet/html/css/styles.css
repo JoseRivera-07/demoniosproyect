@@ -1,0 +1,30 @@
+/* Menú infernal sin negro puro */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    background: rgba(80, 0, 0, 0.75); /* Rojo oscuro transparente */
+}
+
+/* Links rojos infernales */
+nav ul li a {
+    color: #FF4D4D;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+    text-shadow: 0 0 10px #FF4D00;
+    transform: scale(1.1);
+}
+header{
+    display: flex;
+    padding: 20px;
+}
+
